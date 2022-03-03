@@ -163,6 +163,12 @@ utton:active {
 }
 
 
+.pegatina{
+  margin: 10px;
+  max-width: 50%;
+  max-height: 50%;
+}
+
 
 footer h3 {
   margin-bottom: 30px;
@@ -189,11 +195,22 @@ iframe {
 .calle{
   margin: 50px;
 }
-.imagenes{
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
+
+
+.columna {
+  float: left;
+  width: 50%;
+  padding-right: 5px;
 }
+
+.fila::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
 .parrafo {
   display: grid;
   grid-template: max-content;
@@ -201,13 +218,7 @@ iframe {
   padding: 1em;
   border: 1px solid salmon;
 }
-.flex-conteiner{
-  border: 1px solid #ca3c10;
-  background: #090909;
-  padding: 0.1px;
-  display: flex;
-  flex-direction: row-reverse;
-}
+
 
 
 
